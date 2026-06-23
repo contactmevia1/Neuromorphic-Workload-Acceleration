@@ -1,0 +1,4 @@
+version,threads,neurons,timesteps,density,total_time_ms,leak_ms,propagate_ms,spike_ms,total_spikes,synaptic_ops,sops
+sequential,1,1000,100,0.1,0.3,0.02,0.08,0.1,14,22349,7.328e+07
+openmp,4,1000,100,0.1,1.71,531773282.92,265886642.85,265886641.87,14,22349,1.310e+07
+opencl,gpu,1000,100,0.1,80.0,0.55,0.69,0.57,14,1401,1.751e+04

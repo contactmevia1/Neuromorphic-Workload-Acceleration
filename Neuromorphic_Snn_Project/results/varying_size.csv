@@ -1,0 +1,4 @@
+version,neurons,timesteps,density,total_time_ms,leak_ms,propagate_ms,spike_ms,total_spikes,synaptic_ops,sops
+sequential,10000,2000,,3337.41,3.45,3275.8,40.13,19820953,3577342869,1.072e+09
+sequential,20000,2000,,22827.34,6.63,22710.04,76.29,39856242,14374625833,6.297e+08
+sequential,30000,2000,,68222.59,11.26,68033.23,123.77,59845576,32366617626,4.744e+08

@@ -1,0 +1,4 @@
+version,threads,neurons,timesteps,density,total_time_ms,leak_ms,propagate_ms,spike_ms,total_spikes,synaptic_ops,sops,speedup_vs_seq
+sequential,1,10000,,,3077.64,3.19,3020.44,37.25,19820953,3577342869,1.162e+09,1.0
+openmp,8,10000,,,631.98,1063675693.38,265920352.29,531838578.18,19820953,3577342869,5.661e+09,4.87
+opencl,gpu,10000,,,1952.38,11.05,534.07,10.75,19820953,3968263680,2.033e+09,1.576
